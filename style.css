@@ -1,0 +1,237 @@
+::-webkit-scrollbar-thumb{
+    background-color:#A3B3A4;
+    border:2px solid #ffffff;
+    height:auto;
+}
+ 
+::-webkit-scrollbar {
+    height:9px;
+    width:7px;
+    border:3px solid #A3B3A4;
+}
+
+::-webkit-scrollbar:horizontal{
+    display:none;
+}
+ 
+::-moz-selection {
+       background:#fff;
+       color:#000;
+}
+ 
+::selection {
+       background:#fff;
+       color:#000;
+}
+body {
+    font-family:trebuchet ms;
+    font-size:9px;
+    color:#afaeae;
+    background:#A3B3A4;
+cursor:URL('https://i.postimg.cc/Px4ysW9f/tiny.png');
+}
+ 
+a {
+  
+  text-decoration:none;
+    outline:none;
+    -moz-outline-style:none;
+    color:#2D2D2D;
+    cursor:help;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+ 
+a:visited{
+    color:#2D2D2D;;
+}
+ 
+a:hover{
+    color:#c2c2c2;
+    text-shadow:1px 0px #000, -1px 0px #000;
+}
+ 
+b,strong{
+    font-weight:heavy;
+    color:#afaeae;
+}
+ 
+blockquote{
+    padding-left:5px;
+    border-left:3px solid #2D2D2D;
+}
+ 
+h1{
+    font:bold italic 25px times new roman;
+    border-bottom:1px dashed #ccc;
+    text-align:center;
+}
+ 
+h2{
+    font:bold italic 20px times new roman;
+    border-bottom:1px dashed #ccc;
+    text-align:center;
+}
+
+/*--Sidebar--*/
+
+#sidebar{
+    position:fixed;
+    margin-top:200px;
+    width:300px;
+    height:100px;
+    margin-left:550px;
+    border-left:1px solid #ddd;
+    z-index:9999;
+}
+
+#icon img{
+    position:fixed;
+    width:100px;
+    height:100px;
+    margin-left:-115px;
+    border-radius:100px;
+}
+ 
+#title{
+    position:fixed;
+    letter-spacing:0px;
+    font:bold italic 20px garamond;
+    width:160px;
+    margin-top:8px;
+    margin-left:0px;
+    text-align:right;
+    z-index:999;
+}
+#title img{
+    position:fixed;
+    width:25px;
+    height:25px;
+    margin-left:-25px;
+}
+#desc{
+    position:fixed;
+    color:#2D2D2D;
+    font-size:10px;
+    text-align:right;
+    width:160px;
+    height:64px;
+    margin-left:0px;
+    margin-top:35px;
+    overflow:scroll;
+    border-top:1px solid #ddd;
+    padding-top:4px;
+}
+
+#sideline{
+    position:fixed;
+    background:#c2c2c2;
+    width:1px;
+    height:50px;
+    margin-left:190px;
+    margin-top:-15px;
+    -webkit-transform:rotate(-45deg);
+}
+
+#sideline2{
+    position:fixed;
+    background:#c2c2c2;
+    width:1px;
+    height:50px;
+    margin-left:190px;
+    margin-top:20px;
+    -webkit-transform:rotate(45deg);
+}
+
+#sideline3{
+    position:fixed;
+    background:#c2c2c2;
+    width:1px;
+    height:50px;
+    margin-left:190px;
+    margin-top:55px;
+    -webkit-transform:rotate(-45deg);
+}
+
+#circ{
+    position:fixed;
+    width:10px;
+    height:10px;
+    background:#597A7B;
+    margin-left:170px;
+    margin-top:-10px;
+    border:1px solid #d4d4d4;
+    border-radius:100px;
+    z-index:99999;
+    -webkit-transition:all 0.3s ease-in-out;
+        -moz-transition:all 0.3s ease-in-out;
+        -o-transition:all 0.3s ease-in-out;
+        transition:all 0.3s ease-in-out;
+}
+
+#circ:hover{
+    background:#000000;
+}
+
+#circ2{
+    position:fixed;
+    width:10px;
+    height:10px;
+    background:#597A7B;
+    margin-left:198px;
+    margin-top:22px;
+    border:1px solid #d4d4d4;
+    border-radius:100px;
+    z-index:99999;
+    -webkit-transition:all 0.3s ease-in-out;
+        -moz-transition:all 0.3s ease-in-out;
+        -o-transition:all 0.3s ease-in-out;
+        transition:all 0.3s ease-in-out;
+}
+
+#circ2:hover{
+    background:#000000;
+}
+
+#circ3{
+    position:fixed;
+    width:10px;
+    height:10px;
+    background:#597A7B;
+    margin-left:170px;
+    margin-top:55px;
+    border:1px solid #d4d4d4;
+    border-radius:100px;
+    z-index:99999;
+    -webkit-transition:all 0.3s ease-in-out;
+        -moz-transition:all 0.3s ease-in-out;
+        -o-transition:all 0.3s ease-in-out;
+        transition:all 0.3s ease-in-out;
+}
+
+#circ3:hover{
+    background:#000000;
+}
+
+#circ4{
+    position:fixed;
+    width:10px;
+    height:10px;
+    background:#597A7B;
+    margin-left:198px;
+    margin-top:87px;
+    border:1px solid #d4d4d4;
+    border-radius:100px;
+    z-index:99999;
+    -webkit-transition:all 0.3s ease-in-out;
+        -moz-transition:all 0.3s ease-in-out;
+        -o-transition:all 0.3s ease-in-out;
+        transition:all 0.3s ease-in-out;
+}
+
+#circ4:hover{
+    background:#000000;
+}
